@@ -1,0 +1,18 @@
+<!-- 브라우저 탭 아이콘. 원본 마크: components/LogoIcon(3×3 그리드) — 파비콘은 CSS 변수를 쓸 수 없어
+     라이트 테마 --accent(oklch(0.525 0.03 250)) / --on-accent(#ffffff) 값을 그대로 굳혔다.
+     USE-11 — 이 파일이 없어 브라우저가 매 페이지 로드마다 /favicon.ico 를 요청하고 404 를 받았다.
+     Design SoT: packages/tokens/tokens.css L40·L42 (--accent · --on-accent) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Gaea Studio">
+  <rect width="100" height="100" rx="22" fill="oklch(0.525 0.03 250)"/>
+  <g fill="#ffffff">
+    <rect x="22" y="22" width="14.93" height="14.93" rx="2.69" opacity="0.95"/>
+    <rect x="42.53" y="22" width="14.93" height="14.93" rx="2.69" opacity="0.5"/>
+    <rect x="63.07" y="22" width="14.93" height="14.93" rx="2.69" opacity="0.95"/>
+    <rect x="22" y="42.53" width="14.93" height="14.93" rx="2.69" opacity="0.5"/>
+    <rect x="42.53" y="42.53" width="14.93" height="14.93" rx="2.69" opacity="0.95"/>
+    <rect x="63.07" y="42.53" width="14.93" height="14.93" rx="2.69" opacity="0.5"/>
+    <rect x="22" y="63.07" width="14.93" height="14.93" rx="2.69" opacity="0.95"/>
+    <rect x="42.53" y="63.07" width="14.93" height="14.93" rx="2.69" opacity="0.5"/>
+    <rect x="63.07" y="63.07" width="14.93" height="14.93" rx="2.69" opacity="0.95"/>
+  </g>
+</svg>
